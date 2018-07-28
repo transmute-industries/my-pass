@@ -44,7 +44,7 @@ class Home extends Component {
               MyPass
             </Typography>
             <Typography component="p">
-              Soverign Idenitity for Urban Survivors 
+              Soverign Idenitity for Urban Survivors.... 
               <br />
             </Typography>
           </CardContent>
