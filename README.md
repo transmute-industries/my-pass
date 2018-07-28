@@ -2,6 +2,8 @@
 
 https://mypass.transmute.live/
 
+https://www.eventbrite.com/e/the-mayors-blockchain-challenge-tickets-48004157728
+
 Soverign Idenitity for Urban Survivors 
 
 ## Getting Started
