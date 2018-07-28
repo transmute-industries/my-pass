@@ -8,11 +8,7 @@ let eventStoreFactoryArtifact = require('../../contracts/EventStoreFactory.json'
 let transmuteConfig = require('../../transmute-config');
 
 export const getOktaAccessToken = () => {
-  let storage = localStorage.getItem('okta-token-storage');
-  if (storage) {
-    return JSON.parse(storage).accessToken.accessToken;
-  }
-  return null;
+  return null
 };
 
 export const init = store => {

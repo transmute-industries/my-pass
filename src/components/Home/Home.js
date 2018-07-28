@@ -3,7 +3,6 @@ import { push } from 'react-router-redux';
 import { connect } from 'react-redux';
 import AppBar from '../AppBar';
 
-import { withAuth } from '@okta/okta-react';
 
 import { withStyles } from 'material-ui/styles';
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
@@ -85,4 +84,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(withStyles(styles)(withAuth(Home)));
+)(withStyles(styles)(Home));

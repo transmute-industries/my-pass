@@ -4,9 +4,10 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 
 import { combineReducers } from 'redux';
-import user from './transmute/user';
+
 import directory from './transmute/directory';
-import groups from './transmute/groups';
+
+import myPass from './my-pass';
 
 import { init } from './transmute/helpers';
 
@@ -26,8 +27,8 @@ const composeEnhancers =
 export const store = createStore(
   combineReducers({
     directory: directory.reducer,
-    groups: groups.reducer,
-    user: user.reducer,
+    myPass: myPass.reducer,
+
     router: routerReducer
   }),
   composeEnhancers(
@@ -37,4 +38,4 @@ export const store = createStore(
 );
 
 // check transmute dependencies...
-init(store)
+init(store);

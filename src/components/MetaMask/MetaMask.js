@@ -3,7 +3,7 @@ import { push } from 'react-router-redux';
 import { connect } from 'react-redux';
 import AppBar from '../AppBar';
 
-import { withAuth } from '@okta/okta-react';
+
 import { withStyles } from 'material-ui/styles';
 
 import Typography from 'material-ui/Typography';
@@ -167,4 +167,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(withStyles(styles)(withAuth(MetaMask)));
+)(withStyles(styles)(MetaMask));

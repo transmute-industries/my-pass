@@ -1,5 +1,7 @@
 # MyPass
 
+https://mypass.transmute.live/
+
 Soverign Idenitity for Urban Survivors 
 
 ## Getting Started
@@ -8,6 +10,11 @@ Start local Ethereum and IPFS nodes.
 
 ```
 docker-compose up
+
+npm run start
+npm run build
+npm run deploy
+
 ```
 
 ## Decentralization

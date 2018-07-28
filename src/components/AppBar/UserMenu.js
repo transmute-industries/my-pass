@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 
-import { withAuth } from '@okta/okta-react';
 
 import { Dashboard, AccountCircle, ImportContacts, Chat } from 'material-ui-icons';
 
@@ -72,4 +71,4 @@ class UserMenu extends Component {
   }
 }
 
-export default withAuth(UserMenu);
+export default UserMenu;

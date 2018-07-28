@@ -16,10 +16,10 @@ import AccountCircle from 'material-ui-icons/AccountCircle';
 import Menu, { MenuItem } from 'material-ui/Menu';
 
 import * as actionCreators from '../../store/transmute/user/actionCreators';
+
 import { LinearProgress } from 'material-ui/Progress';
 
 import Button from 'material-ui/Button';
-
 
 import UserMenu from './UserMenu';
 import AdminMenu from './AdminMenu';
@@ -141,30 +141,14 @@ class MiniDrawer extends React.Component {
   constructor(props) {
     super(props);
     this.state = { authenticated: null };
-    this.checkAuthentication = this.checkAuthentication.bind(this);
-    this.checkAuthentication();
-    this.checkAdmin = this.checkAdmin.bind(this);
-    this.checkAdmin();
-  }
-
-  async checkAuthentication() {
-    const authenticated = true;
-    if (authenticated !== this.state.authenticated) {
-      this.setState({ authenticated });
-    }
-  }
-
-  async checkAdmin() {
-    return true;
-  }
-
-  componentDidUpdate() {
-    this.checkAuthentication();
   }
 
   render() {
     const { classes, theme } = this.props;
-    const { authenticated, anchorEl } = this.state;
+    const { anchorEl } = this.state;
+
+    const authenticated = this.props.myPass.user !== null;
+    
     const isMenuOpen = Boolean(anchorEl);
     const isLoading = !!this.props.loading;
 
@@ -213,7 +197,6 @@ class MiniDrawer extends React.Component {
                   >
                     Register
                   </Button>
-                
                 </div>
               )}
 
@@ -312,7 +295,7 @@ MiniDrawer.propTypes = {
 
 const mapStateToProps = state => {
   return {
-    error: state.user.error
+    myPass: state.myPass
   };
 };
 
