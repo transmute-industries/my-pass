@@ -63,7 +63,7 @@ Using PGP, Ethereum and IPFS, we can provide an immutable audit log, with authen
 
 The event data below shows how PGP, Ethereum Smart Contracts and IPFS are used to save encrypted data an immutable audit log.
 
-See `./test/Integration.spec.js` for how this was generated.
+See `./test/Integration.spec.js` for how this was generated. There are also continious integration tests for the audit log functionality [here](https://travis-ci.org/transmute-industries/my-pass).
 
 ```
 {
@@ -189,3 +189,8 @@ For everyone except the message recipient.
 If you are the message recipient, this acts like a vault for your secrets, things you need to remember, but are afraid to write down because they may be stolen.
 
 If the message recipient is an agent or social worker, you can rest assured that they are the only one who will be able to read your message.
+
+
+## Technologies Used
+
+React, Redux, Material UI, Firebase, Ethereum, IPFS, Truffle, Docker, Lodash, React-Camera, OpenPGP.js, Firebase Functions, Express, Azure Cognitive Services, Travis CI, Github, Transmute Framework
