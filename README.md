@@ -1,5 +1,7 @@
 # MyPass
 
+[![Build Status](https://travis-ci.org/transmute-industries/my-pass.svg?branch=master)](https://travis-ci.org/transmute-industries/my-pass)
+
 ### [https://mypass.transmute.live/](https://mypass.transmute.live/)
 
 ### [Hackathon](https://www.eventbrite.com/e/the-mayors-blockchain-challenge-tickets-48004157728)
