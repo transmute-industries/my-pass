@@ -12,9 +12,9 @@
 
 ## Overview
 
-This repo contains code for a web app, cloud functions and smart contracts, as well as docker services for ethereum and ipfs. together, these components and services provide a hybrid app (built using centralized and decentralized tech), which support identity and secure document managment using machine learning, blockchain and cryptgrography which as been around for decaded (PGP).
+This repo contains code for a web app, cloud functions and smart contracts, as well as docker services for ethereum and ipfs. Together, these components and services provide a hybrid app (built using centralized and decentralized tech), which supports identity and secure document managment using machine learning, blockchain and cryptgrography which as been around for decades (PGP).
 
-We think its important to get a great user experience built first, before completing the integration of these services, or adding addional blockchain or machine learning features.
+We think it's important to get a great user experience built first, before completing the integration of these services, or adding additional blockchain or machine learning features.
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ truffle text
 
 This wallet design is not safe. It is for demonstration purposes only. The concept is to derive a keypair from biometry + codes.
 
-It uses Microsoft Azure Cognitive services to detect and identify the face (and gender, age) of a user within a group of users. This solution might have trouble scaling, but could work well if regional accounts were used. Face identification can be fooled easily, and is generally not secure... especially by itself, or implemented the way we have done so here.
+It uses [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/) to detect and identify the face (and gender, age) of a user within a group of users. This solution might have trouble scaling, but could work well if regional accounts were used. Face identification can be fooled easily, and is generally not secure... especially by itself, or implemented the way we have done so here.
 
 Identity is often bootstraped from:
 
