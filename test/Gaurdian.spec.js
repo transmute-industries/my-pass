@@ -1,4 +1,4 @@
-const Gaurdian = artifacts.require('./ESigner.sol');
+const Gaurdian = artifacts.require('./Gaurdian.sol');
 
 contract('Gaurdian', accounts => {
   it('constructor works', async () => {

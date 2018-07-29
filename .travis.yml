@@ -1,0 +1,13 @@
+sudo: required
+
+language: nodejs
+
+services:
+  - docker
+
+before_install:
+- npm i -g truffle
+- docker-compose up &>/dev/null &
+
+script:
+- truffle test

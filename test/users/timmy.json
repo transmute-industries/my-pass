@@ -1,0 +1,10 @@
+{
+  "name": "Timmy Lemke",
+  "email": "Henderson_Weber@yahoo.com",
+  "address": "0xf0759099fac04e676a2845451d630e4d3f9c96b5",
+  "public":
+    "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v3.0.11\r\nComment: https://openpgpjs.org\r\n\r\nxk8EW10+BRMFK4EEAAoCAwTDUsRd32lH9l53kisfsnILtPqfSuccJhEE85NK\nQlSXsqxc+z0bf0EyTIf8/YngrdgpzXTjwB1BhtFArIdajJNxzSdUaW1teSBM\nZW1rZSA8SGVuZGVyc29uX1dlYmVyQHlhaG9vLmNvbT7CdwQQEwgAKQUCW10+\nBQYLCQcIAwIJEISmw14dNTIABBUICgIDFgIBAhkBAhsDAh4BAACC8wEA93Lk\n3DfKujDlQByJ0xF77utPuByuGpJI7n0YrTJ7jp8A/0cxyxBxYOPm8lj2BsbW\nLMFjJCmE0gVLKK7b7hSBL5D7zlMEW10+BRIFK4EEAAoCAwRORUlj3KOT9J2O\n6AdGIVmHSKpdGCc6vyXZouXVKQzIgct8drK6j22CzIRB1pAJ1Swwj8KWbB6y\nEIFxiBDsAPOiAwEIB8JhBBgTCAATBQJbXT4FCRCEpsNeHTUyAAIbDAAAeR0B\nAK7RygCxYblDPUvmxmWGgDfK8Av8LiVGqQZXGNTGn1GCAP423O3EjmRZ8lqD\n5FsWL+s+eSOpv8XYVEdyk98ZDqf7uQ==\r\n=/OqM\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n\r\n",
+  "privateKey":
+    "-----BEGIN PGP PRIVATE KEY BLOCK-----\r\nVersion: OpenPGP.js v3.0.11\r\nComment: https://openpgpjs.org\r\n\r\nxXQEW10+BRMFK4EEAAoCAwTDUsRd32lH9l53kisfsnILtPqfSuccJhEE85NK\nQlSXsqxc+z0bf0EyTIf8/YngrdgpzXTjwB1BhtFArIdajJNxAAD/Q5uGLmrb\nXCcxPtdOqO4V5yMU0xa0CtU2yaVR/Jx4/EMQds0nVGltbXkgTGVta2UgPEhl\nbmRlcnNvbl9XZWJlckB5YWhvby5jb20+wncEEBMIACkFAltdPgUGCwkHCAMC\nCRCEpsNeHTUyAAQVCAoCAxYCAQIZAQIbAwIeAQAAgvMBAPdy5Nw3yrow5UAc\nidMRe+7rT7gcrhqSSO59GK0ye46fAP9HMcsQcWDj5vJY9gbG1izBYyQphNIF\nSyiu2+4UgS+Q+8d4BFtdPgUSBSuBBAAKAgMETkVJY9yjk/SdjugHRiFZh0iq\nXRgnOr8l2aLl1SkMyIHLfHayuo9tgsyEQdaQCdUsMI/ClmweshCBcYgQ7ADz\nogMBCAcAAP44g7OXmC9IN8wxe8Z6ynJbPGMq2raB47c66Pkx1FUNjREbwmEE\nGBMIABMFAltdPgUJEISmw14dNTIAAhsMAAB5HQEArtHKALFhuUM9S+bGZYaA\nN8rwC/wuJUapBlcY1MafUYIA/jbc7cSOZFnyWoPkWxYv6z55I6m/xdhUR3KT\n3xkOp/u5\r\n=kF8m\r\n-----END PGP PRIVATE KEY BLOCK-----\r\n",
+  "passphrase": "compelling"
+}

@@ -8,7 +8,7 @@ const EventStoreFactory = artifacts.require(
   'transmute-framework/contracts/EventStoreFactory.sol'
 );
 
-const ESigner = artifacts.require('./ESigner.sol');
+const Gaurdian = artifacts.require('./Gaurdian.sol');
 
 module.exports = deployer => {
   deployer.deploy(EventStoreLib);
@@ -19,7 +19,7 @@ module.exports = deployer => {
   deployer.link(EventStore, EventStoreFactory);
   deployer.deploy(EventStoreFactory);
 
-  deployer.link(EventStoreLib, ESigner);
-  deployer.link(EventStore, ESigner);
-  deployer.deploy(ESigner);
+  deployer.link(EventStoreLib, Gaurdian);
+  deployer.link(EventStore, Gaurdian);
+  deployer.deploy(Gaurdian);
 };

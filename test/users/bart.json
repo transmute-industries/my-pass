@@ -1,0 +1,10 @@
+{
+  "name": "Bartholome Fadel",
+  "email": "Marcelo.Boehm37@gmail.com",
+  "address": "0xb94de945026643c2e7b046d122aae3a8c60694c2",
+  "public":
+    "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v3.0.11\r\nComment: https://openpgpjs.org\r\n\r\nxk8EW10+HxMFK4EEAAoCAwS3/wKwL5KgxeXMsqIA208MS5/BbsTPABxrCo0q\npgLBS7FpWDDvNDk+LKMe8ru7KxMuV8noF2Xgw4hgaeq0q39vzSxCYXJ0aG9s\nb21lIEZhZGVsIDxNYXJjZWxvLkJvZWhtMzdAZ21haWwuY29tPsJ3BBATCAAp\nBQJbXT4fBgsJBwgDAgkQP2gKHFlTmh0EFQgKAgMWAgECGQECGwMCHgEAANSX\nAP9UmIr5GtQ+lv8K2YWSMqhZO2MsF2YbPuNJAzMMKYAq+QEA/WZmMqbdSHEM\nNWwCZ+nvUy+UbIK9at/g0ZHbTN4zze7OUwRbXT4fEgUrgQQACgIDBM76tN/5\n8rlABwe0elMT8PvixgfOLM6hxA57ftsKt0BwVKapV0C0Pmi7+3xTnTGGN091\nJcSnJ06ondSO0OivhsMDAQgHwmEEGBMIABMFAltdPh8JED9oChxZU5odAhsM\nAABEiQEAiiHSNrqEAo9gC7lPWWZmghB+dIcB/5aK9XMYFJCSdIEBANaTcs3Y\nzqWo5oE2Bk8NsDT4GPxPPh6TTXbN0cATjjIJ\r\n=tpNF\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n\r\n",
+  "privateKey":
+    "-----BEGIN PGP PRIVATE KEY BLOCK-----\r\nVersion: OpenPGP.js v3.0.11\r\nComment: https://openpgpjs.org\r\n\r\nxXQEW10+HxMFK4EEAAoCAwS3/wKwL5KgxeXMsqIA208MS5/BbsTPABxrCo0q\npgLBS7FpWDDvNDk+LKMe8ru7KxMuV8noF2Xgw4hgaeq0q39vAAD+OFB90xX1\ncJMl0V2vtjmeYXVvOz4FIAB/ZZ3SXU6bs+0Pjs0sQmFydGhvbG9tZSBGYWRl\nbCA8TWFyY2Vsby5Cb2VobTM3QGdtYWlsLmNvbT7CdwQQEwgAKQUCW10+HwYL\nCQcIAwIJED9oChxZU5odBBUICgIDFgIBAhkBAhsDAh4BAADUlwD/VJiK+RrU\nPpb/CtmFkjKoWTtjLBdmGz7jSQMzDCmAKvkBAP1mZjKm3UhxDDVsAmfp71Mv\nlGyCvWrf4NGR20zeM83ux3gEW10+HxIFK4EEAAoCAwTO+rTf+fK5QAcHtHpT\nE/D74sYHzizOocQOe37bCrdAcFSmqVdAtD5ou/t8U50xhjdPdSXEpydOqJ3U\njtDor4bDAwEIBwABAKvS0Zvxf06z2uv0McxHbkTS/fP2vHBQ9m5uxWphw3rC\nFJ/CYQQYEwgAEwUCW10+HwkQP2gKHFlTmh0CGwwAAESJAQCKIdI2uoQCj2AL\nuU9ZZmaCEH50hwH/lor1cxgUkJJ0gQEA1pNyzdjOpajmgTYGTw2wNPgY/E8+\nHpNNds3RwBOOMgk=\r\n=Urlj\r\n-----END PGP PRIVATE KEY BLOCK-----\r\n",
+  "passphrase": "integrated"
+}
