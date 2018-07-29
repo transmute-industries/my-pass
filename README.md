@@ -159,6 +159,10 @@ It is possible to reward identities for verified work, providing a verified work
 
 Due to the immutable nature of the blockchain, it is critical that PII not be stored on it, and if decentralized storage tech, such as IPFS is used, all data should be encrypted first. A better scenario would be to used trusted georeplicated, and SLA covered storage from major public cloud providers, such as Google, Amazon or Microsoft.
 
+## Privacy
+
+Biometrics are generally usernames, not passwords. The privacy of user information require careful analysis and review, an all idenitiers that can be linked to an individual should be treated with care. In our case, we have faceIds which correspond to images of people, personIds which corrospond to people, and personGroupIds which corrospond to regions. We also have the public and private key used by the user, and of course their IP address. The app does not currently collect anything other than images. But there are tests showing how encryption must be applied to protect user messages and documents.
+
 ## How PGP Works
 
 Encryption helps you safely share secrets with people you trust.
