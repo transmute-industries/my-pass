@@ -26,12 +26,12 @@ class TransmuteMenu extends Component {
   render() {
     return (
       <List>
-        <ListItem button onClick={() => history.push('/metamask')}>
+        {/* <ListItem button onClick={() => history.push('/metamask')}>
           <ListItemIcon>
             <Code />
           </ListItemIcon>
           <ListItemText primary="Fund MetaMask" />
-        </ListItem>
+        </ListItem> */}
 
         <ListItem
           button

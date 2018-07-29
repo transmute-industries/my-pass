@@ -10,10 +10,15 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "cognitive-services": "^1.1.0",
     "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "firebase-admin": "^5.13.1",
-    "firebase-functions": "^2.0.2"
+    "firebase-functions": "^2.0.2",
+    "lodash": "^4.17.10",
+    "promise-retry": "^1.1.1",
+    "sleep-promise": "^8.0.1"
   },
   "devDependencies": {
     "eslint": "^4.12.0",

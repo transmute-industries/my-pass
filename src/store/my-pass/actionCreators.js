@@ -13,3 +13,10 @@ export const userSignedOut = () => {
     payload: null
   };
 };
+
+export const newUserSession = newUserSession => {
+  return {
+    type: Constants.NEW_USER_SESSION,
+    payload: newUserSession
+  };
+};

@@ -24,3 +24,5 @@ yarn-error.log*
 attic
 
 .env
+
+.runtimeconfig.json

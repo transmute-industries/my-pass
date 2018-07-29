@@ -13,6 +13,8 @@ import transmuteConfig from '../../transmute-config';
 
 import myPass from '../../store/my-pass';
 
+import Camera from '../Camera'
+
 const styles = {
   card: {
     maxWidth: 500
@@ -65,6 +67,8 @@ class Debug extends Component {
         >
           Sign Out
         </Button>
+
+        <Camera/>
       </AppBar>
     );
   }

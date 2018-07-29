@@ -3,7 +3,6 @@ import { push } from 'react-router-redux';
 import { connect } from 'react-redux';
 import AppBar from '../AppBar';
 
-
 import { withStyles } from 'material-ui/styles';
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import Button from 'material-ui/Button';
@@ -12,7 +11,7 @@ import theme from '../../theme';
 
 import { history } from '../../store';
 
-import man from '../../images/man5.jpg';
+import austin from '../../images/austin.jpg';
 
 const styles = {
   card: {
@@ -34,17 +33,13 @@ class Home extends Component {
     return (
       <AppBar>
         <Card className={classes.card}>
-          <CardMedia
-            className={classes.media}
-            image={man}
-            title="American Man"
-          />
+          <CardMedia className={classes.media} image={austin} title="Austin" />
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
               MyPass
             </Typography>
             <Typography component="p">
-              Soverign Idenitity for Urban Survivors 
+              Soverign Idenitity for People Experiencing Homelessness
               <br />
             </Typography>
           </CardContent>
@@ -54,10 +49,10 @@ class Home extends Component {
               variant={'raised'}
               color="primary"
               onClick={() => {
-                history.push('/demo');
+                history.push('/register');
               }}
             >
-              Secure Messaging
+              Register
             </Button>
           </CardActions>
         </Card>

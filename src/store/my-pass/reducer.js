@@ -11,12 +11,19 @@ const handlers = {
       user: action.payload
     };
   },
-  [Constants.USER_SIGNED_OUT]: (state, action) => {
+  [Constants.NEW_USER_SESSION]: (state, action) => {
     return {
       ...state,
+      session: action.payload,
       user: action.payload
     };
-  }
+  },
+  // [Constants.USER_SIGNED_OUT]: (state, action) => {
+  //   return {
+  //     ...state,
+  //     user: action.payload
+  //   };
+  // }
 };
 
 export default (state = initialState, action) => {

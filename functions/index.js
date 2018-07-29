@@ -3,6 +3,8 @@ const functions = require('firebase-functions');
 const express = require('express');
 const cors = require('cors');
 
+const register = require('./register');
+
 const app = express();
 
 // Automatically allow cross-origin requests
@@ -18,5 +20,7 @@ app.get('/', (req, res) =>
   })
 );
 
+app.use('/register', register);
+
 // Expose Express API as a single Cloud Function:
-exports.widgets = functions.https.onRequest(app);
+exports.myPass = functions.https.onRequest(app);

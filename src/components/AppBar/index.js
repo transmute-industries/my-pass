@@ -138,17 +138,12 @@ class MiniDrawer extends React.Component {
     this.setState({ anchorEl: null });
   };
 
-  constructor(props) {
-    super(props);
-    this.state = { authenticated: null };
-  }
-
   render() {
     const { classes, theme } = this.props;
     const { anchorEl } = this.state;
 
-    const authenticated = this.props.myPass.user !== null;
-    
+    const authenticated = this.props.myPass.session;
+
     const isMenuOpen = Boolean(anchorEl);
     const isLoading = !!this.props.loading;
 
