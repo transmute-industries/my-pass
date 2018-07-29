@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repo contains code for a web app, cloud functions and smart contracts, as well as docker services for ethereum and ipfs. together, these components and services provide a hybrid app (built using centralized and decentralized tech), which support identity and secure document managment using machine learning, blockchain and cryptgrography which as been around for decaded (PGP). 
+This repo contains code for a web app, cloud functions and smart contracts, as well as docker services for ethereum and ipfs. together, these components and services provide a hybrid app (built using centralized and decentralized tech), which support identity and secure document managment using machine learning, blockchain and cryptgrography which as been around for decaded (PGP).
 
 We think its important to get a great user experience built first, before completing the integration of these services, or adding addional blockchain or machine learning features.
 
@@ -19,7 +19,6 @@ We think its important to get a great user experience built first, before comple
 Start local Ethereum and IPFS nodes.
 
 ```
-
 # test, build and deploy the web app
 docker-compose up
 npm run start
@@ -29,14 +28,13 @@ npm run deploy
 # test smart contracts and decentralized storage with ipfs
 npm i -g truffle
 truffle text
-
 ```
 
 ## Biometric Hybrid Wallet
 
 This wallet design is not safe. It is for demonstration purposes only. The concept is to derive a keypair from biometry + codes.
 
-It uses Microsoft Azure Cognitive services to detect and identity the face of a user within a group of users. This solution might have trouble scaling, but could work well if regional accounts were used. Face identification can be fooled easily, and is generally not secure... especially by itself, or implemented the way we have done so here.
+It uses Microsoft Azure Cognitive services to detect and identify the face (and gender, age) of a user within a group of users. This solution might have trouble scaling, but could work well if regional accounts were used. Face identification can be fooled easily, and is generally not secure... especially by itself, or implemented the way we have done so here.
 
 Identity is often bootstraped from:
 
@@ -44,7 +42,7 @@ Identity is often bootstraped from:
 - Something you have.
 - Something you know.
 
-Ideally, when registering and identity we will capture as many factors as possible. This improves the strength of the identity while reducing is user friendliness, and the privacy of the principal.
+Ideally, when registering an identity we will capture as many factors as possible. This improves the robustness of the identity while reducing the user friendliness, and the privacy of the principal.
 
 For the purposes of this hackathon, we assume that everything can be stolen, but that the user can remember a secret (or somehow secure a code). Additional factors should be added to improve the security of this system, some possible improvements:
 
@@ -53,7 +51,7 @@ For the purposes of this hackathon, we assume that everything can be stolen, but
 - Email / Password
 - Social Auth (Google, Facebook, LinkedIn)
 
-The end result is an idenity rooted in a public and private keypair. The keypair is compatably with the Ethereum blockchain, and can be used to sign transactions, send and receive ETH or other ethereum based tokens, as well as encrypt, decrypt, sign and verify.
+The end result is an idenity rooted in a public and private keypair. The keypair is compatable with the Ethereum blockchain, and can be used to sign transactions, send and receive ETH or other Ethereum based tokens, as well as encrypt, decrypt, sign and verify.
 
 By layering these common cryptographic operations on top of document storage, we can achieve confidentiality and integrity. By relying on Google backed centralized data storage, we can achieve availability, but also have the ability to censor or redact information should keys become compromised in the future.
 
@@ -191,7 +189,6 @@ For everyone except the message recipient.
 If you are the message recipient, this acts like a vault for your secrets, things you need to remember, but are afraid to write down because they may be stolen.
 
 If the message recipient is an agent or social worker, you can rest assured that they are the only one who will be able to read your message.
-
 
 ## Technologies Used
 
