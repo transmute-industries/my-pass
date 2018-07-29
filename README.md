@@ -1,10 +1,12 @@
 # MyPass
 
-> Soverign Idenitity for People Experiencing Homelessness
-
 ##### [https://mypass.transmute.live/](https://mypass.transmute.live/)
 
+> Soverign Idenitity for People Experiencing Homelessness
+
 [![Build Status](https://travis-ci.org/transmute-industries/my-pass.svg?branch=master)](https://travis-ci.org/transmute-industries/my-pass)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub top language](https://img.shields.io/github/languages/top/badges/shields.svg)
 
 ### [Hackathon](https://www.eventbrite.com/e/the-mayors-blockchain-challenge-tickets-48004157728)
 
