@@ -11,12 +11,15 @@ import IconButton from 'material-ui/IconButton';
 
 import red from 'material-ui/colors/red';
 
+import AddDocument from './Dialog/AddDocument';
+
 import {
   Image as ImageIcon,
   Work as WorkIcon,
   Comment as CommentIcon,
   DoneAll as DoneAllIcon,
-  Warning as WarningIcon
+  Warning as WarningIcon,
+  AddBox
 } from 'material-ui-icons';
 
 const styles = theme => ({
@@ -33,24 +36,40 @@ const styles = theme => ({
   }
 });
 
-function FolderList(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <List>
-        <ListItem>
-          <Avatar>
-            <WorkIcon />
-          </Avatar>
-          <ListItemText primary="MAP Card" secondary="July 20, 2014" />
-          <ListItemSecondaryAction>
-            <IconButton aria-label="Remaining">3/4</IconButton>
-          </ListItemSecondaryAction>
-        </ListItem>
-        <LinearProgress color="secondary" variant="determinate" value={75} />
-      </List>
-    </div>
-  );
+class FolderList extends React.Component {
+  state = {
+    dialogOpen: false
+  };
+  render() {
+    const { classes } = this.props;
+    return (
+      <div className={classes.root}>
+        <List>
+          <ListItem>
+            <Avatar>
+              <WorkIcon />
+            </Avatar>
+            <ListItemText primary="MAP Card" secondary="July 20, 2014" />
+            <ListItemSecondaryAction>
+              <IconButton
+                aria-label="Add"
+                onClick={() => {
+                  this.setState({
+                    dialogOpen: !this.state.dialogOpen
+                  });
+                }}
+              >
+                <AddBox />
+              </IconButton>
+            </ListItemSecondaryAction>
+          </ListItem>
+          <LinearProgress color="secondary" variant="determinate" value={75} />
+        </List>
+
+        <AddDocument open={this.state.dialogOpen} />
+      </div>
+    );
+  }
 }
 
 FolderList.propTypes = {

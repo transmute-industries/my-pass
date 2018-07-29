@@ -52,7 +52,7 @@ const styles = {
 
 const regResults = require('./regResults.json');
 
-// newUserSession(regResults);
+newUserSession(regResults);
 
 class Register extends Component {
   state = {

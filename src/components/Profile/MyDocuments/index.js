@@ -23,6 +23,8 @@ export default class MyDocs extends Component {
         <Typography gutterBottom variant="headline" component="h2">
           My Vault
         </Typography>
+        
+        
 
         <MyVault />
         <br />
