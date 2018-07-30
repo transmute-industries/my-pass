@@ -11,6 +11,9 @@
 ### [Hackathon](https://www.eventbrite.com/e/the-mayors-blockchain-challenge-tickets-48004157728)
 
 ### [Pitch Deck](https://docs.google.com/presentation/d/15m1KqA66fksI1kxDzz2qjHzRDfiW0gxVMYua3fy57Tw)
+
+### [Prototype](https://www.figma.com/proto/34LXePpcyGvw8tQf59Ikot/MyPass-Quick-Prototype)
+
 ## Overview
 
 This repo contains code for a web app, cloud functions and smart contracts, as well as docker services for ethereum and ipfs. Together, these components and services provide a hybrid app (built using centralized and decentralized tech), which supports identity and secure document managment using machine learning, blockchain and cryptgrography which as been around for decades (PGP).
